@@ -1,4 +1,4 @@
-1. Headers
+# 1. Headers
 ```
 # 제목 1
 ## 제목 2
@@ -9,7 +9,7 @@
 ## 제목 2
 ### 제목 3
 #### 제목 4
-2. Bold / Italic / Strikethrough
+# 2. Bold / Italic / Strikethrough
 ```
 **bold**
 __bold__
@@ -22,37 +22,40 @@ __bold__
 *italic*
 _italic_
 ~~strikethrough~~
-3. List
+# 3. List
 ```
 1.
 -
 +
 *
 ```
-1. Link
+1. List
+2. List2
+- Bullet list
+# 4. Link
 ```
 [링크 텍스트](URL)
 ```
-5. Image
+# 5. Image
 ```
 ![alt](이미지 URL)
 ![alt|가로x세로](이미지 URL)
 ```
 ![위키 흑요석](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ObsidianOregon.jpg/360px-ObsidianOregon.jpg)
 ![위키 흑요석 작은 버전|100x100](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ObsidianOregon.jpg/360px-ObsidianOregon.jpg)
-6. Blockquotes
+# 6. Blockquotes
 ```
 > 인용구
 \- 인용 출처   
 ```
 > 인용구
 \- 인용 출처
-1. 코드
+# 7. 코드
 ```
 인라인 : `printf("asdf")`
 블록 : ```
 ```
-8. 수평선
+# 8. 수평선
 ```
    ---
    ***
@@ -61,7 +64,7 @@ _italic_
 ---
 ***
 ___
-9. 각주
+# 9. 각주
 ```
 각주[^1].
 여러 줄 각주[^2]
@@ -82,13 +85,13 @@ ___
 [^2]: 여러 줄의 각주를 작성할 때에는
 	두 번의 공백 추가
 [^note]: 표기될 때는 여전히 숫자로 표기됨
-10. Highlight
+# 10. Highlight
 ```
 ==하이라이트==
 ```
 ==하이라이트==
 
-11. Checkbox
+# 11. Checkbox
 ```
 - [x] strikethrough
 - [-] only check
@@ -98,20 +101,20 @@ ___
 - [x] strikethrough
 - [-] only check
 - [ ] empty box
-12. 문서 링크
+# 12. 문서 링크
 ```
 [[옵시디언 사용법]]
 ```
-13. 문서 임베딩
+# 13. 문서 임베딩
 ```
 ![[옵시디언 사용법]]
 ```
-14. 문단 참조
+# 14. 문단 참조
     다른 노트에 있는 태그를 참조하기
 ```
 ![[문서 링크#^태그 ID]]
 ```
-15. Callout
+# 15. Callout
 ```
 > [!note] Title
 >   공백 두 개 이후 내용
