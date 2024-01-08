@@ -45,9 +45,7 @@ Ruff의 장점으로 꼽히는 점:
   
 
 심지어 다양한 유명 개발자들의 간증(?) 포함
-  
 ![[Untitled.png]]
-
   
 
 # 1. Getting Started
@@ -109,7 +107,6 @@ ruff format @arguments.txt # 입력한 모든 파일들에 대해 리포맷팅
 
 ### 1.2.3. With VS Code extension
 ![[Untitled 1.png]]
-
 ### 1.2.4. With GitHub Action via `ruff-action`
 
   
