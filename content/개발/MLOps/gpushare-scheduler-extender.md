@@ -56,9 +56,6 @@ spec:
 설치 과정은 다음의 문서를 따릅니다. : [https://github.com/AliyunContainerService/gpushare-scheduler-extender/blob/master/docs/install.md](https://github.com/AliyunContainerService/gpushare-scheduler-extender/blob/master/docs/install.md)
 
 ## 2.0. GPU node 준비
-
-현재 회사의 모든 GPU는 GPU node로서 준비되어 있지만, 만약 새로운 노드를 추가해야 한다면 다음 과정을 진행해 주세요. : [k8s용 GPU node 설정](https://www.notion.so/k8s-GPU-node-f82cc4744de34473831f42a0b3ec4782?pvs=21) 
-
 ## 2.1. Control plane에 GPU share scheduler extender deploy
 
 스케듈러 수정을 위한 ClusterRole 및 서비스 계정을 만드는 단계입니다. 추가로 플러그인 deployments도 작성합니다.
@@ -133,10 +130,6 @@ kubectl label node <target_node> gpushare=true
 # 3. Kubectl extension 설치하기
 
 기존의 Nvidia-device-plugin의 경우 GPU가 어떻게 사용되고 있는지 확인하는 데에는 조금 불편함이 있었지만, 새로운 플러그인의 경우 현재 GPU 배포가 어떻게 이루어졌는지 확인할 수 있는 kubectl extension을 배포하고 있습니다. 다만 너무 오래 전에 빌드된 파일이다 보니 대부분의 컴퓨터에서 아키텍쳐 문제로 실행되지 않아, 따로 golang으로 빌드해 주어야 합니다.
-
-- 미리 빌드된 바이너리 문의 안내
-    - intel: @헤이즈 [ABE]
-    - M1: @존 [ABE]
 
 golang은 각자의 방법대로 설치해 주시고, 빌드 전 다음 명령어로 GOPATH 환경변수를 추가해 주세요.
 
