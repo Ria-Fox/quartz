@@ -6,5 +6,5 @@
 그림은 따로 공개하는 플랫폼이 있지 않습니다. 제 [트위터](https://twitter.com/Ria_Fox) 친구가 되어보세요.
 음악은 현재 활동하고 있지는 않지만, 이전 작품들을 [SoundCloud](https://soundcloud.com/ria-fox)에서 확인하실 수 있습니다.
 
-개발의 경우, 이 곳을 제외하고 다른 블로그를 하고 있지는 않습니다. [Github](https://github.com/Ria-Fox)도 따로 관리되고 있지는 않습니다(취미용 계정이다보니, 실제 업무 및 진지한 개발용 Github은 따로 있습니다). MLOps 및 NLP에 관심이 많은 Python 개발자이니, 이런 쪽으로도 편하게 말 걸어 주세요.
+[[개발]]의 경우, 이 곳을 제외하고 다른 블로그를 하고 있지는 않습니다. [Github](https://github.com/Ria-Fox)도 따로 관리되고 있지는 않습니다(취미용 계정이다보니, 실제 업무 및 진지한 개발용 Github은 따로 있습니다). MLOps 및 NLP에 관심이 많은 Python 개발자이니, 이런 쪽으로도 편하게 말 걸어 주세요.
 
