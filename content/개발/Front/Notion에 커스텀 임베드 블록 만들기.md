@@ -1,4 +1,4 @@
-Notion에는 임베드 블록이 존재합니다. 이 임베드 블록은 [Iframely](https://iframely.com/)라는 서비스를 이용해서 만들어지기 때문에, Iframely를 통해서 임베딩 될 수 있는 사이트라면 뭐든 임베딩할 수 있습니다([#](https://www.notion.so/ko-kr/help/embed-and-connect-other-apps#notion%EC%9D%98-%EC%9E%84%EB%B2%A0%EB%93%9C-%EA%B8%B0%EB%8A%A5)).
+Notion에는 임베드 블록이 존재합니다. 이 임베드 블록은 [Iframely](https://iframely.com/)라는 서비스를 이용해서 만들어지기 때문에, Iframely를 통해서 임베딩 될 수 있는 사이트라면 뭐든 임베딩할 수 있습니다[^1].
 물론 모든 사이트가 Iframely를 통해 임베드 될 수 있지는 않습니다. 어떤 컨텐츠를 iframe 태그로 보여 줄 것인지 지정하는 특정 태그가 존재해야 하고, 해당 컨텐츠 페이지가 따로 존재해야 합니다. 해당 문서에서는 [Iframely의 공식 문서](https://iframely.com/docs/webmasters)를 따라 어떻게 iframely를 통해 Notion 임베드 블록을 생성하는 지 서술합니다.
 
 # 임베드 페이지 생성
@@ -29,3 +29,7 @@ Iframely는 위와 같은 링크 태그를 다음과 같은 형식으로 변경�
   </iframe>
 </div>
 ```
+# Iframely 호스트 신청
+Iframely는 기본적으로 summary link가 달려있는 경우에는 summary card를 노출하지만, rich media embed를 하고자 하는 경우에는 Iframely가 해당 Provider를 알고 있어야 합니다. 만약 위와 같이 모든 구현이 완료되었음에도 정상적으로 노출되지 않는다면 [provider 신청 링크](https://iframely.com/qa/request)에서 Example URL과 embed URL을 추가함으로써 정상적으로 노출할 수 있습니다.
+
+[^1]: https://www.notion.so/ko-kr/help/embed-and-connect-other-apps#notion%EC%9D%98-%EC%9E%84%EB%B2%A0%EB%93%9C-%EA%B8%B0%EB%8A%A5
